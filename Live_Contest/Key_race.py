@@ -1,0 +1,6 @@
+s, v1, v2, t1, t2 = input().split(' ')
+p1 = (int(s) * int(v1)) + (int(2) * int(t1))
+p2 = (int(s) * int(v2)) + (int(2) * int(t2))
+if p1 < p2 : print('First')
+elif p2< p1:print('Second')
+else:print('Friendship')
